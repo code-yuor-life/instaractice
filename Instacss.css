@@ -1,0 +1,81 @@
+:root{
+  --col:rgba(228, 230, 235, 0.2);
+  --txtcol:rgba(237, 239, 242,0.5);
+}
+
+body{
+  background-color: var(--col);
+}
+
+#login{
+  position: absolute;
+  top:16vh;
+  right:50vh;
+  width:25vw;
+  height:60vh;
+  border: 2px solid rgb(200, 201, 204);
+}
+
+#title{
+  position:relative;
+  top: 35px;
+  text-align: center;
+  font: 40px itallic billabong;
+}
+
+.formlogin{
+
+}
+.toptwo{
+  background-color: rgba(212, 213, 214, 0.2);
+  margin-top: 5vh;
+}
+.ologin{
+  height:6.5vh;
+  width:17vw;
+  border-radius:4px;
+
+  border: 1px solid #B2AEAE
+}
+#tlog{
+position:absolute;
+top:10vh;
+left:3vw;
+}
+#blog{
+  position:absolute;
+  bottom:30vh;
+  left:3vw;
+}
+  #loginbut{
+    position:absolute;
+    bottom: 3vh;
+    left: 15px;
+    background-color: rgb(100, 172, 227);
+
+  }
+
+  .centered{
+    position: absolute;
+    left: 15vh;
+  }
+#or{
+  position: absolute;
+  top: 31vh;
+  color: rgba(129, 129, 130 0.2);
+  size: 5em;
+}
+
+#face{
+  position: absolute;
+  top:35vh;
+  font-size:1.3em;
+}
+#fblogo{
+  height: 0.8em;
+  width: 0.8em;
+}
+#noAccount{
+  position: absolute;
+  border: 2px solid rgb(200, 201, 204);
+}
